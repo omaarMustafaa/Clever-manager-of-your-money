@@ -41,8 +41,6 @@ ul {
 
 .main-content {
   background-color: #f9fafb;
-  /* padding: 2rem 0; */
-  /* margin-right: 200px; */
 }
 
 /* START MAIN HEADER */
@@ -127,6 +125,9 @@ ul {
 
 .Bell {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Bell span {
@@ -136,10 +137,12 @@ ul {
   color: #fff;
   font-size: 0.625rem;
   font-weight: 900;
-  /* width: fit-content; */
   position: absolute;
   top: -0.425rem;
   right: -0.1875rem;
+  width: 20px;
+  height: 20px;
+  text-align: center;
 }
 
 .account {
